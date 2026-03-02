@@ -1,0 +1,31 @@
+$marginPaddingGap: 8px;
+
+.steps {
+  width: 20%;
+  padding: $marginPaddingGap;
+  &__indicator {
+    margin-bottom: $marginPaddingGap;
+    span {
+      color: var(--primary-color);
+    }
+  }
+  &__step {
+    display: flex;
+    flex-direction: column;
+    gap: $marginPaddingGap;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    &__actions {
+      display: flex;
+      justify-content: space-between;
+      gap: $marginPaddingGap;
+      margin-top: 20px;
+    }
+  }
+}
