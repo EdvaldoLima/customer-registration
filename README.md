@@ -16,6 +16,9 @@ Vue 3, Vite, and Express.
    npm run dev #run front-end
    npm run serve #run back-end
    ```
+## Testing in development mode
+
+`http://localhost:5173/`
 
 3. **Build and run in production mode:**
    ```bash
@@ -23,6 +26,6 @@ Vue 3, Vite, and Express.
    npm run serve #run back-end
    ```
 
-## Testing
+## Testing in production mode
 
 `http://localhost:3000/registration`
